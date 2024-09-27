@@ -1,0 +1,26 @@
+﻿  Main.cpp
+D:\Projects\Cpp\EncodingSystems\HuffmanCode\Main.cpp(48,17): warning C4309: '=': truncation of constant value
+D:\Projects\Cpp\EncodingSystems\HuffmanCode\Main.cpp(109,29): warning C4309: 'argument': truncation of constant value
+D:\Programs\VS\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244: 'initializing': conversion from 'std::streamoff' to '_Ty2', possible loss of data
+D:\Programs\VS\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         with
+D:\Programs\VS\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         [
+D:\Programs\VS\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:             _Ty2=int
+D:\Programs\VS\VC\Tools\MSVC\14.41.34120\include\utility(247,54): warning C4244:         ]
+  (compiling source file 'Main.cpp')
+      D:\Programs\VS\VC\Tools\MSVC\14.41.34120\include\utility(247,54):
+      the template instantiation context (the oldest one first) is
+          D:\Projects\Cpp\EncodingSystems\HuffmanCode\Main.cpp(21,5):
+          see reference to function template instantiation 'std::pair<char *,int>::pair<char*&,std::streampos&,0>(_Other1,_Other2) noexcept' being compiled
+          with
+          [
+              _Other1=char *&,
+              _Other2=std::streampos &
+          ]
+              D:\Projects\Cpp\EncodingSystems\HuffmanCode\Main.cpp(21,5):
+              see the first reference to 'std::pair<char *,int>::pair' in 'getCharacters'
+  
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 725 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  HuffmanCode.vcxproj -> D:\Projects\Cpp\EncodingSystems\HuffmanCode\x64\Release\HuffmanCode.exe
